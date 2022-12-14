@@ -263,7 +263,7 @@ plt.plot(b, label = '预测值', c = 'r', linestyle = '--')
 
 
 plt.xlabel('时刻')
-plt.ylabel('事件状态')
+plt.ylabel('事件风险状态')
 plt.ylim(0, 20)
 plt.legend(loc = 'upper left')
 plt.show()
